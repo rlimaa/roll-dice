@@ -1,0 +1,39 @@
+.RollDice {
+    text-align: center
+}
+
+.RollDice-dice-container {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    max-width: 300px;
+}
+
+.RollDice-roll-button {
+    background-color: #7b6cd3;
+    color: white;
+    padding: 0.8rem;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 20px;
+    min-width: 100px;
+    max-height: 100px;
+    cursor: pointer;
+}
+
+.RollDice-rolling-button {
+    background-color: #8879dd;
+    color: white;
+    padding: 0.8rem;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 20px;
+    min-width: 100px;
+    max-height: 100px;
+
+}
+
+.RollDice-roll-button:hover {
+    background-color: #8879dd;
+}
